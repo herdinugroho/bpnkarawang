@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+     <link href="logo.png" rel="icon">
+
+    <!--Style-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!--Bootstrap 4-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+     <!--Fontawesome-->
+      <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+      <link href="fontawesome/css/brands.css" rel="stylesheet">
+      <link href="fontawesome/css/solid.css" rel="stylesheet">
+
+    <!--Fontstyle-->
+            <!--  font-family: 'Quicksand', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Quicksand&display=swap" rel="stylesheet">
+            <!--  font-family: 'Quicksand', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+
+    
+  </head>
+  <body style="font-family: 'Quicksand', sans-serif;">
+
+<!-- Jumb -->
+      <div class=" jumb container" align="center">
+
+        <table >
+          <tr>
+            <td> <img src="logo.png" class="img-fluid" alt="Logo bpn" width="180px"></td>
+            <td align="center">
+              <h2>Badan Pertanahan Nasional</h2>
+              <h5>Kabupaten Karawang</h5>
+              <p>Jl. Jenderal Ahmad Yani No.68, Nagasari, <br>Kec. Karawang Barat, Karawang, Jawa Barat 41314</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+   
+
+<!-- Nav -->
+      <nav  style="background-color: #000033;">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link " href="#"><i class="fa-solid fa-users"></i> Tentang Kami</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-people-arrows"></i> Layanan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-route"></i> Lihat Rute</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#"><i class="fa-regular fa-phone-volume"></i> Hubungi Kami</a>
+          </li>
+        </ul>
+      </nav>
+
+
+<!-- Isi -->
+
+    <div id="about" data-aos="zoom-out" data-aos-delay="600">
+        <div class="container-fluid">
+              <div class="row">
+
+          <!-- Kiri -->
+               <div class="col-sm-4 isi-kiri" align="center">
+                  <h4>Tata Cara Melakukan Booking Online</h4>
+                  <hr>
+                  <p>Login > Pemohon mengisi Formulir Identitas Diri > Booking Antrian.</p>
+               </div>
+          <!-- Kanan -->     
+                <div class="col-sm-5 isi-kanan">
+                  <h4 align="center">Silahkan Isi Form Antrian</h4>
+                  <hr>
+
+                  <form>
+                    <div class="form-outline mb-4">
+                      <label class="form-label" for="form2Example1" style="font-weight: bold;">Nama</label>
+                      <input type="text" class="form-control" placeholder="Masukkan Nama" />
+                    </div>
+                    <div class="form-outline mb-4">
+                      <label class="form-label" for="form2Example1" style="font-weight: bold;">NIK</label>
+                      <input type="text" class="form-control" placeholder="Masukkan NIK" />
+                    </div>
+                    <div class="form-outline mb-4">
+                      <label class="form-label" for="form2Example1" style="font-weight: bold;">No.Handphone</label>
+                      <input type="text" class="form-control" placeholder="Masukkan No.Handphone" />
+                    </div>
+                    <div class="form-outline mb-4">
+                      <label for="exampleFormControlSelect1" style="font-weight: bold;">Pilih Pelayanan</label>
+                      <select class="form-control" id="exampleFormControlSelect1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                      </select>        
+                    </div>
+                    <div class="form-outline mb-4">
+                      <label class="form-label" for="form2Example1" style="font-weight: bold;">No.Handphone</label>
+                      <input type="date" class="form-control" placeholder="Masukkan No.Handphone" />
+                    </div>
+
+
+                        <div class="row mb-4">
+                          <div class="col">
+                            <a href="#!">Lupa Password?</a>
+                          </div>
+                        </div>
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-block mb-4" style="font-weight: bold; letter-spacing: 2px;">Masuk</button>
+                        <!-- Register buttons -->
+                        <div class="text-center">
+                          <p>Belum Punya Akun? <a href="#!">Daftar</a></p>
+                        </div>
+                  </form>
+                </div> <!-- Div Kanan -->
+
+
+            </div>
+         </div>
+    </div>
+
+
+
+
+<!-- Isi -->
+
+
+
+
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
